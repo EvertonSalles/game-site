@@ -1,0 +1,77 @@
+*{
+background-color: black;
+}
+form{
+    background-color: black;
+    height: 70vh;
+    width: 25vw;
+    text-align: center;
+    margin: auto;
+    margin-top: 80px;
+    align-items: center;
+    border: 1px solid silver;
+}
+h1{
+    font-size: 32px;
+    text-align: center;
+    color: white;
+    
+}
+
+.nome-sobrenome{
+    display: flex;
+    width: 62%;
+    justify-items: center;
+    margin: 10px auto;
+    gap: 10px;  
+}
+.nome, .sobrenome {
+    width: 100%;           
+}
+input, .opc {
+    display: flex;
+    flex-direction: column;
+    width: 14vw;
+    background-color: black;
+    color: red;
+    padding: 16px;
+    margin: 10px auto;
+    outline: none;
+    border: 1px solid silver;
+}
+
+.opc, .enviar{
+  width: 16vw;
+  padding: 14px;
+  cursor: pointer;
+}
+
+button{
+    margin: 30px auto;
+    width: 8vw;
+    height: 4vh;
+    text-align: center;
+    color: red;
+    border: 1px solid silver;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: red;
+    color: black;
+    transition: 1s;
+}
+
+input:invalid {
+    border: 1px solid red;
+  }
+  
+  input:valid {
+    border: 1px solid silver;
+  }
+  
+  #mensagemErro {
+    margin-top: 10px;
+    font-size: 0.9em;
+  }

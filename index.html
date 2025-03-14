@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="index2.html" id="formulario">
+        <h1>Criar Conta</h1>
+        <div class="nome-sobrenome">
+            <input class="nome" type="text" placeholder="Nome" required>
+            <input class="nome" type="text" placeholder="Sobrenome" required></div>
+        
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="password" id="senha" placeholder="Senha" required>
+        <input type="tel" id="telefone" placeholder="(DDD) 00000-0000" required>
+        <select required class="opc" name="Sexo" required>
+        <option disabled selected hidden>Selecione uma opção</option>
+        <option value="">Masculino</option>
+        <option value="">Feminino</option>
+        <option value="">Outro</option>
+        </select>
+        <input class="enviar" type="submit" >
+       <a href="index2.html"><button>Login</button>
+       </a>
+      </form>
+<div id="mensagemErro"></div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
